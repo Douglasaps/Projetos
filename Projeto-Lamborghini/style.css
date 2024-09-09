@@ -1,0 +1,262 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*pagina principal*/
+#bodyindex {
+    background-color: rgb(22, 21, 21);
+   
+}
+
+p, li {
+    color: rgb(255, 255, 255);
+    
+}
+
+h1 {
+    color: goldenrod;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+   
+}
+h5 {
+    color: goldenrod;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+h2{
+    color: goldenrod;
+    font-family: apple-system;
+    margin: 20px;
+}
+.textindex, p {
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    margin: 15px;
+}
+
+nav {
+    background-color:  rgb(14, 14, 14);
+}
+
+nav li {
+    display: inline-block; /* Para ficar uma li ao lado da outra*/
+}
+
+/* Personalizar a tag A dentro dos Li */
+nav li a {
+    display: inline-block;
+    color: rgb(255, 255, 255); 
+    text-decoration: none;  /* Tira o link do texto */
+    padding: 15px;              /* Distancia entre os nomes */
+}
+
+nav li a:hover {
+    background-color: goldenrod;
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+}
+
+/* Define as propriedades do dropdown-menu */
+.dropdown-menu {
+    position: absolute; 
+    box-shadow: 0 0 2px rgb(0, 0, 0); 
+    display: none; /* Esconde o menu suspenso inicialmente */
+}
+
+/* Define as propriedades dos links dentro do dropdown-menu */
+.dropdown-menu a {
+    display: block; /* Define os links como blocos para ocupar todo o espaço horizontal disponível */
+    background-color: rgb(43, 41, 41);
+    color: rgb(255, 255, 255); 
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block; 
+}
+
+.rodape {
+    background-color: rgb(14, 14, 14);
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-bottom: 5px;
+}
+
+.rodape p {
+    margin-bottom: 5px;
+}
+
+.rodape-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4 {
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+
+.rodape span {
+    font-size: 14;
+    color: goldenrod;
+}
+
+.rodape-direitos {
+    width: calc(100% - 20px);
+    background-color: rgb(54, 54, 54);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+#botaovoltaraotopo {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/*pagina 1*/
+#bodypg1 {
+    background-color: rgb(22, 21, 21);
+}
+
+/*pagina 2*/
+#bodypg2 {
+    background-color: rgb(44, 44, 44);
+}
+/*pagina 3*/
+#bodypg3 {
+    background-color: rgb(61, 61, 61);
+}
+/*pagina revuelto*/
+#bodyrevuelto {
+    background-color: rgb(22, 21, 21);
+}
+
+/*pagina revuelto*/
+#bodyhuracan {
+    background-color: rgb(22, 21, 21);
+}
+
+/*pagina evo*/
+#bodyevo {
+    background-color: rgb(22, 21, 21);
+}
+
+/*pagina urus*/
+#bodyurus {
+    background-color: rgb(22, 21, 21);
+}
+#bodyferruccio {
+    background-color: rgb(22, 21, 21);
+
+}
+
+#logo {
+    background-color: rgb(145, 113, 33);
+   
+}
+li {
+    padding: 3px;
+    font-family: Arial;
+}
+
+#banner {
+    width: 100%;
+}
+
+#videoprincipal {
+    width: 60%;
+}
+
+#iconerodape {
+    width: 15px;
+}
+
+#especificaçoes {
+   padding: 10px; 
+}
+
+#textferrucio {
+    margin: 15px;
+    padding: 5px;
+}
+#imgferruccio {
+    margin: 20px;
+}
+#especificacoes {
+display: flex;
+justify-content: left;
+background-color: rgb(22, 21, 21);
+width: 50%;
+}
+#especificacoes li{
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    text-justify: auto;
+}
+#especificacoes h2{
+    display: flex;
+    justify-content: left;
+    margin-left: 60px;
+    
+ }
+ #especificacoes img {
+    width: 100%;
+    height: auto;
+  }
+  
+ .imgvd {
+    margin: 20px;
+ }
+ 
+ #depoimentos-carousel {
+    background-color: #f5f5f5;
+  }
+  
+  .carousel-caption {
+    color: #ffffff;
+  }
+  
+  .carousel-caption h5 {
+    font-weight: bold;
+  }
+  .dropdown-toggle {
+    color: #fff; /* Cor do texto do botão */
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
+
+
+
+
+
+
+
+
